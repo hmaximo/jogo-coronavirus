@@ -1,0 +1,52 @@
+header {
+    margin-top: 20px;
+}
+
+body {
+    background-color: navy;
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: mintcream;
+}
+
+.container {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.instrucoes {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+/*Media Queries*/
+
+@media (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
